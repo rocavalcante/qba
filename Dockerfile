@@ -19,7 +19,7 @@ RUN apt-get install -y default-jdk python python-dev  \
 
 # update pip
 RUN python3 -m pip install pip --upgrade && \
-    python3 -m pip install wheel
+    python3 -m pip install wheel p4python
 
 RUN apt-get install -y -q --no-install-recommends \
     libgconf2-4 libnss3-1d libxss1 \
