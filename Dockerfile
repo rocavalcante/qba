@@ -16,7 +16,7 @@ RUN apt-get update -qq &&\
 
 
 RUN apt-get update
-RUN apt-get install -y openjdk-6-jdk python python-dev  \
+RUN apt-get install -y default-jdk python python-dev  \
      build-essential libssl-dev libffi-dev \
      libxml2-dev libxslt1-dev zlib1g-dev \
      python-pip 
