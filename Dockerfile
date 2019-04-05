@@ -1,5 +1,5 @@
 
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 LABEL maintaner="Rodrigo Cavalcante <rodrigoibka@gmail.com>"
 
