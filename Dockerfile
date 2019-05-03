@@ -33,6 +33,6 @@ RUN apt-get install -y -q --no-install-recommends \
     autoconf \
     ssl-cert
 
-RUN pip2 install p4python
+#RUN pip2 install p4python
 
 
